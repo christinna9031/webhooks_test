@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/webhooks', function(req, res) {
-  res.send('This the simple Webhook server sample.  Use POST methods instead of GET.);
+  res.send('This the simple Webhook server sample.  Use POST methods instead of GET.');
 });
 
 app.post('/webhooks', function(req, res) {
