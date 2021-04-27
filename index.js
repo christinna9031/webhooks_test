@@ -6,7 +6,7 @@ const { createServer } = require('http');
 const bodyParser = require('body-parser');
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const WebSocket = require('ws');
 
 const appW = express();
@@ -28,7 +28,7 @@ wss.on('connection', function (ws) {
 });
 
 server.listen(8080, function () {
-  console.log('Listening on http://0.0.0.0:8000');
+  console.log('Listening on http://0.0.0.0:8080');
 });
 
 
