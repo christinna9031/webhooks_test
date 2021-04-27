@@ -4,7 +4,7 @@
   "description": "Simple test server to receive webhooks updates from Facebook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mduppes/webhooks_test/issues"
-  },
-  "scripts": {
-    "start": "node index.js"
   },
   "homepage": "https://github.com/mduppes/webhooks_test#readme",
   "dependencies": {
